@@ -1,0 +1,141 @@
+/*PARTE DE LA CABECERA*/
+.cabecera {
+    display: flex;
+    align-items: center; /* Alinea verticalmente al centro */
+    font-family: arial black;
+    background-color: #f3f4f4;
+}
+
+.img-header {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Para mantener la proporción */
+    margin-right: 10px; /* Opcional: Ajusta el espacio entre la imagen y el texto */
+}
+
+
+/*PARTE DE NAVEGACION*/
+.menu {
+    text-align: center;
+    
+}
+
+.menu-item{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color:skyblue;
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+
+.menu-item:hover {
+    background: cornflowerblue;
+}
+
+
+/*PARTE DE LOS ARTICULOS Y EL ASIDE*/
+
+.texArt a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+}
+
+.ima {
+    padding-bottom: 10px;
+    width: 400px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos secundarios */
+    background-color: white;
+}
+
+.contenedor-articulos {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-articulos2 {
+    display: flex;
+    flex-direction: column; /* Establece la dirección de los elementos secundarios en columnas */
+}
+
+.art {
+    flex: 1; /* Hace que los artículos ocupen igualmente el espacio disponible */
+    margin-top: 20px;
+    margin-right: 20px; /* Opcional: Ajusta el espacio entre los artículos */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#art1 {
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+#art2 {
+    display: flex;
+    background-color:aquamarine;
+}
+
+#art3 {
+    background-image: url(../Imagenes/gloria_vaca.jpg);
+    background-size: cover; /* Esto ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Esto centra la imagen */
+    padding: 20px; /* Agrega un espacio alrededor del contenido */
+    color: white; /* Color del texto, para que sea legible sobre el fondo */
+    text-align: center;
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 1 auto;
+}
+
+/*SERVICIOS*/
+
+.title {
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: Arial Black, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+.atencion_text {
+    background-color: beige;
+    margin: 10px 20px 10px 20px;
+}
+
+.atencion_text p {
+    background-color: beige;
+    margin: 10px;
+}
+
+.photo {
+    width: 90px;
+    height: 100px;
+    margin: 10px 60px 10px;
+}
+
+.photo p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-ima{
+    padding: 10px;
+}
+
+.title-contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
